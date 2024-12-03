@@ -1,10 +1,3 @@
-Deberéis crear una API en Node.js utilizando Express y Mongoose. 
-Dicha API consistirá en una aplicación de tareas donde podréis crear, visualizar, actualizar y borrar tareas.
-
 Documentación:
 ¿Qué es documentar una API?
 Documenta la API utilizando SWAGGER.
-
-EXTRA:
-Testing:
-Testear el endpoint POST /create: Endpoint para crear una tarea.
