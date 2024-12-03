@@ -19,6 +19,26 @@ const TaskController = {
             console.error(error);
         }
     },
+    async getById(req, res) {
+        try {
+            const task = await Task.findById(req.params._id)
+            res.send(task)
+        } catch (error) {
+            console.error(error);
+        }
+    },
+    async getByTitle(req, res) {
+        try {
+            const tasks = await Task.find({
+                $text: {
+                    $search: req.params.title,
+                },
+            });
+            res.send(tasks);
+        } catch (error) {
+            console.log(error);
+        }
+    },
     async delete(req, res) {
         try {
             const task = await Task.findByIdAndDelete(req.params._id)

@@ -8,7 +8,7 @@ const TaskSchema = new mongoose.Schema({
 
 TaskSchema.index({
     title: "text"
-  });
+});
   
 const Task = mongoose.model('Task', TaskSchema);
 
