@@ -7,8 +7,7 @@ const TaskSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 TaskSchema.index({
-    name: "text",
-    likes: [{ type: ObjectId }],
+    title: "text"
   });
   
 const Task = mongoose.model('Task', TaskSchema);

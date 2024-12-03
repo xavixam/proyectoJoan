@@ -6,8 +6,8 @@ POST /create: Endpoint para crear una tarea.
 GET /: Endpoint para traer todas las tareas.
 GET /id/:_id: Endpoint para buscar una tarea por id.
 GET /title/:_id: Endpoint para buscar una tarea por su título.
-PUT /id/:_id: Endpoint para actualizar una tarea.
-DELETE /id/:_id: Endpoint para eliminar una tarea.
+//Joan-> PUT /id/:_id: Endpoint para actualizar una tarea.
+//Joan-> DELETE /id/:_id: Endpoint para eliminar una tarea.
 
 Documentación:
 ¿Qué es documentar una API?
