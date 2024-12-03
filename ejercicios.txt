@@ -2,17 +2,8 @@ Deberéis crear una API en Node.js utilizando Express y Mongoose.
 Dicha API consistirá en una aplicación de tareas donde podréis crear, visualizar, actualizar y borrar tareas.
 
 Endpoints de la API:
-<<<<<<< HEAD
-POST /create: Endpoint para crear una tarea.
-GET /: Endpoint para traer todas las tareas.
-GET /id/:_id: Endpoint para buscar una tarea por id.
-GET /title/:_id: Endpoint para buscar una tarea por su título.
-//Joan-> PUT /id/:_id: Endpoint para actualizar una tarea.
-//Joan-> DELETE /id/:_id: Endpoint para eliminar una tarea.
-=======
 PUT /id/:_id: Endpoint para actualizar una tarea.
 DELETE /id/:_id: Endpoint para eliminar una tarea.
->>>>>>> main
 
 Documentación:
 ¿Qué es documentar una API?
