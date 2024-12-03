@@ -1,0 +1,25 @@
+Deberéis crear una API en Node.js utilizando Express y Mongoose. Dicha API consistirá en una aplicación de tareas donde podréis crear, visualizar, actualizar y borrar tareas.
+Estructura del proyecto:
+config
+config.js // Código de la conexión a la base de datos.
+keys.js // mongo_uri con la conexión a la base de datos.
+models
+Task.js // Aquí irá el modelo de la tarea con los campos title, completed y los timestamps.
+routes
+tasks.js // Aquí estarán todas las rutas.
+controllers
+TaskController.js // Aquí estarán todos tus métodos.
+index.js // Aquí añadiremos nuestro servidor, conexión a la base de datos y uniremos el resto de la aplicación.
+Endpoints de la API:
+POST /create: Endpoint para crear una tarea.
+GET /: Endpoint para traer todas las tareas.
+GET /id/:_id: Endpoint para buscar una tarea por id.
+GET /title/:_id: Endpoint para buscar una tarea por su título.
+PUT /id/:_id: Endpoint para actualizar una tarea.
+DELETE /id/:_id: Endpoint para eliminar una tarea.
+Documentación:
+¿Qué es documentar una API?
+Documenta la API utilizando SWAGGER.
+EXTRA:
+Testing:
+Testear el endpoint POST /create: Endpoint para crear una tarea.
