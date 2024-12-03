@@ -3,7 +3,7 @@ const ObjectId = mongoose.SchemaTypes.ObjectId;
 
 const TaskSchema = new mongoose.Schema({
     title: String,
-    completed: boolean,
+    completed: Boolean,
 }, { timestamps: true });
 
 TaskSchema.index({
